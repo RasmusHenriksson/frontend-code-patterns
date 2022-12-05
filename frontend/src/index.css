@@ -6,31 +6,32 @@
 
 body {
   font-family: "Roboto Mono", monospace;
-  background-color: #d9f1ff;
+  background-color: #E1E1E1 ;
 }
 
 .flex {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   margin-left: 30px;
 }
 .navbar {
-  background-color: #7997af;
+  background-color: #E1E1E1 ;
 }
 .navbar-nav {
   list-style: none;
   gap: 32px;
-  font-size: 14px;
+  font-size: 16px;
 }
 .nav-link {
   text-decoration: none;
-  color: white;
+  color: black;
   padding: 16px;
+  margin-top: 22px;
   display: inline-block;
 }
 .nav-link:hover {
-  background-color: #6b869c;
+  color: #FF5277;
 }
 .nav-link:nth-child(1) {
   margin-left: -16px;
@@ -99,3 +100,11 @@ img {
   background-color: #5fa6e0;
 }
 
+.fixxo-tag {
+  text-decoration: none;
+  color: black;
+  padding: 16px;
+  font-size: 26px;
+  position: absolute;
+  left: 40px;
+}
