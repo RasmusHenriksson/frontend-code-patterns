@@ -11,7 +11,13 @@ const Navbar = () => {
                 <li><NavLink className="nav-link" to="/blogg" >Categories</NavLink></li>
                 <li><NavLink className="nav-link" to="/Images" >Products</NavLink></li>
                 <li><NavLink className="nav-link" to="/Images" >Contacts</NavLink></li>
+
+                <li><NavLink className="shop-details" to="/search" >Search</NavLink></li>
+                <li><NavLink className="shop-details" to="/compare" >Compare</NavLink></li>
+                <li><NavLink className="shop-details" to="/favourites" >Favourites</NavLink></li>
+                <li><NavLink className="shop-details" to="/cart" >Cart</NavLink></li>
             </ul>
+           
                   </div>               
     </nav>
   )
