@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap');
+
 * {
   margin: 0;
   padding: 0;
@@ -9,18 +11,22 @@ body {
   background-color: #E1E1E1 ;
 }
 
+/*--------------------------------------------------------------- * NAVBAR CSS * -----------------------------------------------------------------------------------*/
+
 .flex {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-left: 30px;
+  margin: auto;
 }
+
+
 .navbar {
   background-color: #E1E1E1 ;
 }
 .navbar-nav {
   list-style: none;
-  gap: 32px;
+  gap: 26px;
   font-size: 16px;
 }
 .nav-link {
@@ -33,9 +39,6 @@ body {
 .nav-link:hover {
   color: #FF5277;
 }
-.nav-link:nth-child(1) {
-  margin-left: -16px;
-}
 .nav.link.active {
   text-decoration: underline;
   color: white;
@@ -45,10 +48,13 @@ body {
   text-decoration: none;
   color: black;
   padding: 16px;
-  font-size: 32px;
+  font-size: 34px;
   position: absolute;
   left: 40px;
+  font-family: 'DM Serif Display', serif;
 }
+
+/*--------------------------------------------------------------- * SHOP CSS * -----------------------------------------------------------------------------------*/
 
 .shop-details {
   text-decoration: none;
@@ -63,5 +69,105 @@ body {
 }
 
 .shop-details:hover {
-  color: #FF5277;
+  color: #fa6b6b;
+}
+
+.home-images {
+  display:flex;
+  gap: 80px;
+  margin-top: 60px;
+}
+
+.sales-pitch {
+  margin-top: 140px;
+}
+
+.sale-title{
+text-align: center;
+font-size: 70px;
+line-height: 70px;
+font-weight: 500;
+font-family: 'DM Serif Display', serif;
+margin-bottom: 20px;
+}
+
+.sale-text {
+  font-size: 16px;
+}
+
+.sale-btn {
+display: flex;
+margin: auto;
+justify-content: center;
+border: 0;
+padding: 18px;
+background-color:#fa6b6b;
+color: white;
+cursor: pointer;
+font-family: 'DM Serif Display', serif;
+font-size: 16px;
+letter-spacing: 2px;
+width: 40%;
+margin-top: 30px;
+}
+
+/*--------------------------------------------------------------- * PRODUCT CSS * -----------------------------------------------------------------------------------*/
+
+.product-wrapper {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  gap: 30px;
+  text-align: center;
+  margin-left:50%;
+  transform: translateX(-70%);
+  
+  
+}
+.one {
+  grid-column: 1;
+  grid-row: 1;
+ 
+}
+
+.two {
+  grid-column: 2;
+  grid-row: 1;
+  
+}
+
+.three {
+  grid-column: 3;
+  grid-row: 1;
+}
+
+.four {
+  grid-column: 4;
+  grid-row: 1;
+}
+
+.five {
+  grid-column: 1;
+  grid-row: 2;
+}
+
+.six {
+  grid-column: 2;
+  grid-row: 2;
+}
+
+.seven {
+  grid-column: 3;
+  grid-row: 2;
+}
+
+.eight {
+  grid-column: 4;
+  grid-row: 2;
+}
+
+.product-wrapper img {
+  display:block;
+  width: 100%;
+  object-fit: cover;
+  width: 300px;
 }

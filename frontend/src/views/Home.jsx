@@ -1,6 +1,7 @@
 import React from 'react'
 import { useState, useEffect } from 'react'
 import Products from '../components/Products'
+import Sale from '../components/Sale'
 
 const Home = () => {
 
@@ -31,6 +32,7 @@ useEffect(() => {
 
   return (
     <>
+    <Sale />
     <Products />
     </>
   )
