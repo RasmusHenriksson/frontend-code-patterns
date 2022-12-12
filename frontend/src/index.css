@@ -112,62 +112,60 @@ margin-top: 30px;
 }
 
 /*--------------------------------------------------------------- * PRODUCT CSS * -----------------------------------------------------------------------------------*/
+.sub-titles{
+  text-align: center;
+}
 
 .product-wrapper {
-  display: grid;
-  grid-template-columns: repeat(8, 1fr);
-  gap: 30px;
-  text-align: center;
-  margin-left:50%;
-  transform: translateX(-70%);
-  
-  
+display: inline-grid;
 }
-.one {
-  grid-column: 1;
-  grid-row: 1;
- 
-}
-
-.two {
-  grid-column: 2;
-  grid-row: 1;
-  
-}
-
-.three {
-  grid-column: 3;
-  grid-row: 1;
-}
-
-.four {
-  grid-column: 4;
-  grid-row: 1;
-}
-
-.five {
-  grid-column: 1;
-  grid-row: 2;
-}
-
-.six {
-  grid-column: 2;
-  grid-row: 2;
-}
-
-.seven {
-  grid-column: 3;
-  grid-row: 2;
-}
-
-.eight {
-  grid-column: 4;
-  grid-row: 2;
-}
-
-.product-wrapper img {
-  display:block;
+.product-img {
+  display:inline-grid;
   width: 100%;
   object-fit: cover;
   width: 300px;
+  padding-left: 15px;
+  padding-right: 15px;
+  
+
 }
+
+.product-category {
+font-size: 14px;
+text-align: center;
+margin-top: 16px;
+color:rgb(85, 85, 85)
+}
+
+.product-title {
+font-size: 16px;
+font-weight: 500;
+letter-spacing: 2px;
+text-align: center;
+font-family: 'DM Serif Display', serif;
+margin-top: 8px;
+
+
+}
+
+.product-stars {
+  font-size: 16px;
+  font-weight: 600;
+  text-align: center;
+  width: 110px;
+  margin: auto;
+  align-items: center;
+  margin-top: 6px;
+
+}
+
+.product-price {
+  font-size: 18px;
+  font-weight: 500;
+  text-align: center;
+  font-family: 'DM Serif Display', serif;
+  margin-top: 6px;
+  margin-bottom: 20px;
+
+}
+
