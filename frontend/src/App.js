@@ -10,7 +10,8 @@ import ContactsView from './Views/ContactsView';
 function App() {
   return (
     <>
-    {/* Använder mig utav MVC modellen, men eftersom jag använder mig utav få routes så agerar App.js som controller */}
+    {/* HANS SÄGER MVVM ÄR REACT? Använder mig utav MVC modellen, men eftersom jag använder mig utav få routes så agerar App.js som controller */}
+    {/* saknar dependency injection eftersom javascript inte är object orienterat*/}
     <Navbar />
     
 
