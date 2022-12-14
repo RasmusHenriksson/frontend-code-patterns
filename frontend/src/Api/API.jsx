@@ -9,7 +9,7 @@ const API = () => {
       const getPosts = async () => {
         try {
           
-          const res = await fetch('https://localhost:7025/api/Posts')
+          const res = await fetch('https://localhost:7025/api/Product')
           if(!res.ok) {
             throw new Error(res.status, res.statusText)
           }
