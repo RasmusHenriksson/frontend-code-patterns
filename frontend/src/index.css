@@ -169,3 +169,137 @@ margin-top: 8px;
 
 }
 
+.middle-images {
+  display:flex;
+  gap: 40px;
+  margin-top: 60px;
+  margin-left: 100px;
+}
+
+.pamela-btn {
+  position: relative;
+margin: auto;
+justify-content: center;
+border: 0;
+padding: 18px;
+background-color:black;
+color: white;
+cursor: pointer;
+font-family: 'DM Serif Display', serif;
+font-size: 16px;
+letter-spacing: 2px;
+width: 10%;
+bottom: 220px;
+right: 200px;
+
+}
+
+.pamela{
+  position: relative;
+  bottom: 300px;
+  margin-left: 550px;
+  color: white;
+  font-size: 48px;
+  font-family: 'DM Serif Display', serif;
+}
+.pamela-span{
+  position: relative;
+  bottom: 300px;
+  margin-left: 550px;
+  color: white;
+  font-size: 48px;
+  font-family: 'DM Serif Display', serif;
+}
+
+.next-pamela {
+  position: relative;
+  padding-left: 1025px;
+  bottom: 440px;
+  color: black;
+  font-size: 48px;
+  font-family: 'DM Serif Display', serif;
+}
+.next-span-pamela {
+  position: relative;
+  padding-left: 1025px;
+  bottom: 440px;
+  color: black;
+  font-size: 48px;
+  font-family: 'DM Serif Display', serif;
+}
+
+.next-btn-pamela {
+  position: relative;
+margin: auto;
+justify-content: center;
+border: 0;
+padding: 18px;
+background-color:white;
+color: black;
+cursor: pointer;
+font-family: 'DM Serif Display', serif;
+font-size: 16px;
+letter-spacing: 2px;
+width: 10%;
+right: 200px;
+bottom: 360px;
+}
+
+.footer-rights {
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+  color: grey;
+  letter-spacing: -2px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+.footer {
+  border-top: 1px solid grey;
+  background-color: rgb(224, 224, 224);
+}
+
+.emojis {
+  display:flex;
+  margin: auto;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding-top: 20px;
+}
+
+.facebook {
+  display: block;
+  margin: 0;
+  width: 25px;
+
+}
+
+.instagram {
+  display: block;
+  margin: 0;
+  width: 20px;
+
+}
+
+.twitter {
+  display: block;
+  margin: 0;
+  width: 18px;
+
+}
+
+.google {
+  display: block;
+  margin: 0;
+  width: 20px;
+
+}
+
+.linked-in {
+  display: block;
+  margin: 0;
+  width: 18px;
+
+}
