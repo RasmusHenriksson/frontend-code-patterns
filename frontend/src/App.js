@@ -14,7 +14,8 @@ function App() {
     {/* saknar dependency injection eftersom javascript inte är object orienterat*/}
     <Navbar />
     
-
+    {/* - Single Responsibility Pinciple - 
+         App.js hanterar enbart mina routes och följer Single Responsibility Principle. */}
       <Routes>
         <Route path="/" element={ <Home /> }/>
         <Route path="/categories" element={ <CategoryView /> }/>

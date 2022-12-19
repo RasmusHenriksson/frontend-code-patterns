@@ -2,6 +2,14 @@ import React from 'react'
 import { NavLink } from 'react-router-dom'
 
 const Navbar = () => {
+
+{/* - Single Responsibility Pinciple - 
+         Den här hanterar enbart mina routes i navbaren och följer Single Responsibility Principle. */}
+
+      /* - Open Closed Pinciple - 
+      Vi kommer aldrig behöva ändra någonting här men vi kan extenda genom att lägga till nya 
+      routes i navbaren och följer därför Open Closed Principle */
+
   return (
     <nav className='navbar'>
         <div className="container flex">
